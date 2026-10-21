@@ -3,7 +3,7 @@
 Lightweight desktop auto-recorder. So user 
 signs in once; the app records each conversation by itself (start on sustained
 speech with an 8 s pre-roll, stop after 30 s of silence) and uploads it into the
-existing Siloam pipeline, where it waits for confirmation like a browser recording.
+existing pipeline, where it waits for confirmation like a browser recording.
 Rust, Windows first. The full design is in the approved plan.
 
 **Status: M0 (setup + detection) complete.** There's no app yet. What exists is the
