@@ -1,6 +1,6 @@
 # ferrecord
 
-Lightweight desktop auto-recorder for **Siloam Learning Lens**. A staff member
+Lightweight desktop auto-recorder. So user 
 signs in once; the app records each conversation by itself (start on sustained
 speech with an 8 s pre-roll, stop after 30 s of silence) and uploads it into the
 existing Siloam pipeline, where it waits for confirmation like a browser recording.
