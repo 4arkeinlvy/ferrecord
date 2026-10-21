@@ -1,0 +1,13 @@
+[package]
+name = "spike-threads"
+version = "0.0.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+spike-common = { path = "../common" }
+ureq = { version = "3.4.2", default-features = false }
+
+[features]
+default = ["tls"]
+tls = ["ureq/native-tls"]

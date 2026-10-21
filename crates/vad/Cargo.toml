@@ -1,0 +1,18 @@
+[package]
+name = "recorder-vad"
+description = "Voice activity detection engines behind one trait (Silero v6.2 pure Rust, earshot)."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+rust-version.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+earshot = "1.2.2"
+silero-vad-pure = { path = "../../third_party/silero-vad-pure" }
+
+[dev-dependencies]
+silero-vad-pure = { path = "../../third_party/silero-vad-pure" }

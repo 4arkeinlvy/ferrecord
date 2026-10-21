@@ -1,0 +1,18 @@
+[package]
+name = "vad-eval"
+description = "Offline evaluation of conversation detection: onset latency, misses, false triggers, CPU."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+rust-version.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+recorder-core = { path = "../../crates/core" }
+recorder-vad = { path = "../../crates/vad" }
+hound = "3.5"
+fastrand = "2"
+recorder-audio = { version = "0.1.0", path = "../../crates/audio" }

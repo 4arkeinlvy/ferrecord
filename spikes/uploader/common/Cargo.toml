@@ -1,0 +1,9 @@
+[package]
+name = "spike-common"
+version = "0.0.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+rusty-s3 = "0.10.2"
+url = "2.5.8"

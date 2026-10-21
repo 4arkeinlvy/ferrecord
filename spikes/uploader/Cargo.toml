@@ -1,0 +1,12 @@
+# ADR 0001 measurement spike. Separate workspace: variant B depends on tokio,
+# which is banned from the desktop dependency graph.
+[workspace]
+resolver = "3"
+members = ["common", "threads", "tokio"]
+
+[profile.release]
+opt-level = "s"
+lto = "fat"
+codegen-units = 1
+strip = true
+panic = "unwind"

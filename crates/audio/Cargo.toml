@@ -1,0 +1,15 @@
+[package]
+name = "recorder-audio"
+description = "DSP building blocks for the capture path: downmix, high-pass, resample to 16 kHz."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+rust-version.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+nnnoiseless = { version = "0.5.2", default-features = false }
+rubato = "5.0.1"

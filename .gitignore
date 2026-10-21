@@ -1,0 +1,7 @@
+/target
+/testdata/corpus/
+*.wav
+!/testdata/fixtures/*.wav
+.direnv/
+/testdata/golden/
+/spikes/**/target*/

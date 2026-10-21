@@ -1,0 +1,18 @@
+[package]
+name = "vad-live"
+description = "Live microphone -> VAD -> controller, for tuning detection on a real mic."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+rust-version.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+cpal = "0.18.2"
+recorder-core = { path = "../../crates/core" }
+recorder-vad = { path = "../../crates/vad" }
+recorder-audio = { path = "../../crates/audio" }
+rtrb = "0.4.0"
